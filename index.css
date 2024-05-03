@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: rgb(133, 223, 223);
+    width: 30%;
+    height: 400px;
+    margin: 50px auto 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 20px 5px rgb(151, 147, 147);
+
+    /*gradient CSS start */
+    background: hsla(302, 55%, 87%, 1);
+    background: linear-gradient(90deg, hsla(302, 55%, 87%, 1) 0%, hsla(333, 73%, 85%, 1) 39%, hsla(211, 58%, 79%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(302, 55%, 87%, 1) 0%, hsla(333, 73%, 85%, 1) 39%, hsla(211, 58%, 79%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(302, 55%, 87%, 1) 0%, hsla(333, 73%, 85%, 1) 39%, hsla(211, 58%, 79%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#F0CCEF", endColorstr="#F5BFD7", GradientType=1);
+
+    /*gradient CSS end*/
+}
+
+.card h1 {
+    color: azure;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.search-box input {
+    height: 40px;
+    width: 60%;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    padding-left: 10px;
+    color: rgb(155, 145, 145);
+    font-weight: bold;
+}
+
+::placeholder {
+    color: rgb(155, 145, 145);
+}
+.search-box div {
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    background-color: white;
+    padding-top: 12px;
+    border-radius: 50%;
+    transition: ease all 0.5s;
+}
+
+.search-box img {
+    height: 15px;
+    width: 15px;
+    opacity: 0.5;
+}
+
+.search-box div:hover {
+    height: 43px;
+    width: 43px;
+    transition: ease all 0.5s;
+}
